@@ -1,0 +1,14 @@
+span
+	h2 Name: #{name}
+span
+	h3 Title: #{title}
+span
+	h3 #{post}
+
+br
+form action="/blog/newpost" method="POST"
+	input type="submit" value="Post again bruhh." name="post"
+
+br
+form action="/blog/newcomment" method="POST"
+	input type="submit" value="Comment!!" name="comment"

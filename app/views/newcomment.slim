@@ -1,0 +1,11 @@
+html
+	body
+		title New Comment
+		h1 Comment on deez posts, dawg!
+
+		form action='/blog/comments' method="POST"
+			label Name:
+				input type="text" name="name" required=""
+			label Comment:
+				input type="textarea" name="comment_stuff" required=""
+			input type="submit" value="Comment dis." name="submit"

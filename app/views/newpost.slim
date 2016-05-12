@@ -1,0 +1,19 @@
+html
+	body
+		title New Post
+		h1 Post to yo blog, gangsta!
+
+		form action='/blog/posts' method="POST"
+			label Name:
+			input type="text" name="name" required=""
+			br
+			label Title:
+			input type="text" name="title" required=""
+			br
+			label Post yo wordz:
+			input type="textarea" name="post_stuff" required=""
+			br
+			input type="submit" value="Post dis." name="post"
+		br
+		form action="/blog/newcomment"
+			input type="submit" value="Comment!!" name="comment"

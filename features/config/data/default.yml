@@ -1,0 +1,9 @@
+good_post:
+  title: ~title
+  name: ~full_name
+  content: ~paragraphs(paragraph_count=1)
+
+bad_post:
+  title: ~title
+  name: 
+  content: ~paragraphs(paragraph_count=1)
