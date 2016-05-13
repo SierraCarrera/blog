@@ -8,7 +8,7 @@ class BlogPage
   button(:create, name: 'create_post')
 
   def new_post
-  	self.create_post
+  	self.create
   end
 
 end

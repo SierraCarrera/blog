@@ -7,15 +7,21 @@ When(/^I go to the blog$/) do
 end
 
 Then(/^I want to create a post$/) do
-  on_page(BlogPage).new_post
+  on_page(BlogPage) do |page|
+  	page.new_post.click
+  end
 end
 
 Then(/^I need to fill in the information$/) do
-  on_page(PostPage).valid_post
+  on_page(PostPage) do |page|
+  	page.valid_post.click
+  end
 end
 
 When(/^I go to a post$/) do
-  on_page(PostPage)
+  on_page(PostPage) do |page|
+  	
+  end
 end
 
 Then(/^I want to see all the details of said post$/) do

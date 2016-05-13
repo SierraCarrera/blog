@@ -18,6 +18,7 @@ class PostPage
   	populate_page_with data_for :bad_comment
   	self.post
   end
+  
   # def num_comments
   # 	comments = 0
   # 	do while comments <= 10

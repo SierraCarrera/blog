@@ -7,3 +7,11 @@ bad_post:
   title: ~title
   name: 
   content: ~paragraphs(paragraph_count=1)
+
+good_comment:
+  name: ~full_name
+  content: ~paragraphs(paragraph_count=1)
+
+bad_comment:
+  name: 
+  content: ~paragraphs(paragraph_count=1)
